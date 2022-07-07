@@ -1,0 +1,39 @@
+.abouts {
+  margin-top: 80px;
+  padding-top: 40px;
+
+  .bg3d {
+    position: absolute;
+    right: 0;
+  }
+
+  .aboutContent {
+    background-color: #232340;
+    color: #ffff;
+    padding: 0 135px;
+    margin-top: 40px;
+
+    .aboutHeader {
+      padding-top: 70px;
+      display: flex;
+      align-items: flex-start;
+
+      img {
+        margin-right: 179px;
+      }
+
+      p {
+        margin-bottom: 24px;
+      }
+      .numBout {
+        color: #8b8b8b;
+      }
+      h1 {
+        word-wrap: break-word;
+        font-size: 4.5rem;
+        width: 80%;
+        z-index: 100;
+      }
+    }
+  }
+}

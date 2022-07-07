@@ -1,0 +1,46 @@
+.intros {
+  display: flex;
+  margin: 94px 135px 0;
+
+  .leftSide {
+    padding-top: 40px;
+
+    h1 {
+      font-size: 4.5rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+      text-align: justify;
+    }
+
+    .navButton {
+      background-color: #5468e7;
+      padding: 20px 37px;
+    }
+
+    .scrollDown {
+      background-color: transparent;
+      color: #8b8b8b;
+      display: flex;
+      align-items: center;
+      border-color: transparent;
+      margin-top: 110px;
+
+      .arrowBg {
+        background-color: #c897e4;
+        margin-right: 16px;
+        padding: 10px 12px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }
+    }
+  }
+
+  .introImg {
+    width: 70%;
+  }
+}
