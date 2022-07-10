@@ -1,24 +1,35 @@
 {
   "files": {
-    "main.css": "/folio/static/css/main.74850715.css",
-    "main.js": "/folio/static/js/main.fbf438f9.js",
+    "main.css": "/folio/static/css/main.c0d4b990.css",
+    "main.js": "/folio/static/js/main.77d22325.js",
     "static/js/787.43d88a3b.chunk.js": "/folio/static/js/787.43d88a3b.chunk.js",
+    "static/media/slide03.png": "/folio/static/media/slide03.1d0288ad1ef2786fefc9.png",
     "static/media/tab-content03.png": "/folio/static/media/tab-content03.1d0288ad1ef2786fefc9.png",
+    "static/media/slide04.png": "/folio/static/media/slide04.b67d2b5a4f397932f7e3.png",
     "static/media/tab-content04.png": "/folio/static/media/tab-content04.b67d2b5a4f397932f7e3.png",
     "static/media/bg-for-3d.png": "/folio/static/media/bg-for-3d.043bd213d2ecab583b09.png",
     "static/media/intro-image.png": "/folio/static/media/intro-image.5acc2b9c197f1fbb385a.png",
+    "static/media/slide02.png": "/folio/static/media/slide02.fd751212017c644383e9.png",
     "static/media/tab-content02.png": "/folio/static/media/tab-content02.fd751212017c644383e9.png",
+    "static/media/slide01.png": "/folio/static/media/slide01.85143d41f64215996eca.png",
     "static/media/tab-content01.png": "/folio/static/media/tab-content01.85143d41f64215996eca.png",
+    "static/media/slide05.png": "/folio/static/media/slide05.6fe147563991385d608c.png",
     "static/media/tab-content05.png": "/folio/static/media/tab-content05.6fe147563991385d608c.png",
     "static/media/logo-symbol.svg": "/folio/static/media/logo-symbol.63cf61daddd5ceb893db931a3d5d1c61.svg",
+    "static/media/work2.png": "/folio/static/media/work2.0e3dccbf6d2e272750a1.png",
+    "static/media/work1.png": "/folio/static/media/work1.c620fce9aa18d510c040.png",
     "static/media/Logo.png": "/folio/static/media/Logo.e2bc81d5b8319fc434da.png",
+    "static/media/Path.svg": "/folio/static/media/Path.07f26dbd6fad164ea2af.svg",
+    "static/media/line-1.svg": "/folio/static/media/line-1.f152cb8335d2cf588685.svg",
+    "static/media/line-2.svg": "/folio/static/media/line-2.e93963ec75879af83d82.svg",
+    "static/media/line.svg": "/folio/static/media/line.d185a14ebefeb6a1990c.svg",
     "index.html": "/folio/index.html",
-    "main.74850715.css.map": "/folio/static/css/main.74850715.css.map",
-    "main.fbf438f9.js.map": "/folio/static/js/main.fbf438f9.js.map",
+    "main.c0d4b990.css.map": "/folio/static/css/main.c0d4b990.css.map",
+    "main.77d22325.js.map": "/folio/static/js/main.77d22325.js.map",
     "787.43d88a3b.chunk.js.map": "/folio/static/js/787.43d88a3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74850715.css",
-    "static/js/main.fbf438f9.js"
+    "static/css/main.c0d4b990.css",
+    "static/js/main.77d22325.js"
   ]
 }
