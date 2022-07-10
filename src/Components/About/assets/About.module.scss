@@ -8,10 +8,10 @@
   }
 
   .aboutContent {
-    background-color: #232340;
     color: #ffff;
-    padding: 0 135px;
+    padding: 0 135px 169px;
     margin-top: 40px;
+    background: url(./Path.svg) no-repeat #232340;
 
     .aboutHeader {
       padding-top: 70px;
@@ -48,14 +48,28 @@
     z-index: 1;
     right: 60px;
 
+    .tabImage {
+      width: 100%;
+    }
+
     .contentText {
       margin-top: 128px;
       display: flex;
 
       .tabTitle {
-        max-width: 100%;
-        width: 100px;
+        width: 81%;
       }
+      .tabDesc {
+        width: 70%;
+        margin-bottom: 40px;
+      }
+      .tabContact {
+        text-decoration: none;
+        background-color: #5468E7;
+        color: #ffff;
+        padding: 20px 44px;
+        border-radius: 8px;
+}
       .tabDate {
         width: 402px;
         height: 252px;

@@ -33,7 +33,9 @@ export default function About() {
                   {tabContents.map((yearData) => (
                     <>
                       <Nav.Item>
-                        <Nav.Link eventKey={yearData.order}>{yearData.year}</Nav.Link>
+                        <Nav.Link eventKey={yearData.order} className='tab-year'>
+                          {yearData.year}
+                        </Nav.Link>
                       </Nav.Item>
                     </>
                   ))}
@@ -44,13 +46,13 @@ export default function About() {
               <Tab.Content className={styles.tabContents}>
                 {tabContents.map((tabData) => (
                   <>
-                    <Tab.Pane eventKey={tabData.order} className={styles.tabContent01}>
-                      <img src={tabData.img} alt={tabData.alt} />
+                    <Tab.Pane eventKey={tabData.order}>
+                      <img src={tabData.img} alt={tabData.alt} className={styles.tabImage} />
                       <div className={styles.contentText}>
                         <div>
                           <h1 className={styles.tabTitle}>{tabData.title}</h1>
                           <p className={styles.tabDesc}>{tabData.description}</p>
-                          <a href='#contact'>Contact Us</a>
+                          <a href='#contact' className={styles.tabContact}>Contact Us</a>
                         </div>
                         <div className={styles.tabDate}>
                           <div>
@@ -65,96 +67,6 @@ export default function About() {
                     </Tab.Pane>
                   </>
                 ))}
-                {/* <Tab.Pane eventKey='first' className={styles.tabContent01}>
-                  <img src={tab1} alt='' />
-                  <div className={styles.contentText}>
-                    <div>
-                      <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, beatae
-                        nisi.
-                      </p>
-                      <a href=''>Contact Us</a>
-                    </div>
-                    <p>
-                      <span>28</span>
-                      <br />
-                      Lorem Ipsum
-                    </p>
-                  </div>
-                </Tab.Pane>
-                <Tab.Pane eventKey='second' className={styles.tabContent02}>
-                  <img src={tab2} alt='' />
-                  <div>
-                    <div>
-                      <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, beatae
-                        nisi.
-                      </p>
-                      <a href=''>Contact Us</a>
-                    </div>
-                    <p>
-                      <span>28</span>
-                      <br />
-                      Lorem Ipsum
-                    </p>
-                  </div>
-                </Tab.Pane>
-                <Tab.Pane eventKey='third' className={styles.tabContent03}>
-                  <img src={tab3} alt='' />
-                  <div>
-                    <div>
-                      <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, beatae
-                        nisi.
-                      </p>
-                      <a href=''>Contact Us</a>
-                    </div>
-                    <p>
-                      <span>28</span>
-                      <br />
-                      Lorem Ipsum
-                    </p>
-                  </div>
-                </Tab.Pane>
-                <Tab.Pane eventKey='fourth' className={styles.tabContent04}>
-                  <img src={tab4} alt='' />
-                  <div>
-                    <div>
-                      <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, beatae
-                        nisi.
-                      </p>
-                      <a href=''>Contact Us</a>
-                    </div>
-                    <p>
-                      <span>28</span>
-                      <br />
-                      Lorem Ipsum
-                    </p>
-                  </div>
-                </Tab.Pane>
-                <Tab.Pane eventKey='fifth' className={styles.tabContent05}>
-                  <img src={tab5} alt='' />
-                  <div>
-                    <div>
-                      <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, beatae
-                        nisi.
-                      </p>
-                      <a href=''>Contact Us</a>
-                    </div>
-                    <p>
-                      <span>28</span>
-                      <br />
-                      Lorem Ipsum
-                    </p>
-                  </div>
-                </Tab.Pane> */}
               </Tab.Content>
             </Col>
           </Row>

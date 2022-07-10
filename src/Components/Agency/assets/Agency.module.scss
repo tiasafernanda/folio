@@ -1,0 +1,87 @@
+.agency {
+  margin-top: 80px;
+  padding-top: 40px;
+
+  .bg3d {
+    position: absolute;
+    right: 0;
+  }
+
+  .agencyContent {
+    color: #ffff;
+    padding: 0 135px;
+    margin-top: 40px;
+    background: url(./Path.svg) no-repeat #232340;
+    height: 1500px;
+
+    .agencyHeader {
+      padding-top: 70px;
+      margin-bottom: 94px;
+      display: flex;
+      align-items: flex-start;
+
+      img {
+        margin-right: 179px;
+      }
+
+      p {
+        margin-bottom: 24px;
+      }
+      .numBout {
+        color: #8b8b8b;
+      }
+      h1 {
+        word-wrap: break-word;
+        font-size: 4.5rem;
+        z-index: 1;
+        position: relative;
+      }
+    }
+
+    .agencyItem {
+      display: flex;
+      margin-left: 200px;
+      .agencyCont {
+        position: relative;
+        z-index: 2;
+
+        h1 {
+          font-size: 12rem;
+          font-weight: 500;
+        }
+        h5 {
+          font-size: 1.5rem;
+          font-weight: 700;
+        }
+        p {
+          color: #8b8b8b;
+          font-size: 1.25rem;
+          font-weight: 400;
+          width: 50%;
+        }
+
+        .download {
+          display: flex;
+          align-items: center;
+          color: #ffff;
+          text-decoration: none;
+
+          &:hover {
+            color: #8b8b8b;
+          }
+
+          .arrowBg {
+            background-color: #5468e7;
+            margin-right: 16px;
+            padding: 7px 11px;
+            border-radius: 50%;
+          }
+        }
+      }
+
+      .leftItem {
+        margin-top: 147px;
+      }
+    }
+  }
+}

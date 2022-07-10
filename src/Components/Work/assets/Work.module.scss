@@ -1,0 +1,65 @@
+.works {
+  margin-top: 129px;
+  padding: 0 135px 169px;
+  background: url(./line-2.svg) no-repeat bottom left;
+
+  .workHeader {
+    padding-top: 70px;
+    margin-bottom: 94px;
+    display: flex;
+    align-items: flex-start;
+
+    img {
+      margin-right: 179px;
+    }
+
+    p {
+      margin-bottom: 24px;
+    }
+    .numBout {
+      color: #5468E7;
+    }
+    h1 {
+      word-wrap: break-word;
+      font-size: 4.5rem;
+      width: 80%;
+      z-index: 1;
+      position: relative;
+    }
+    .introDesc {
+      width: 55%;
+      margin-top: 40px;
+    }
+  }
+
+  .workPrev {
+    display: flex;
+    background: url(./line-1.svg) no-repeat right;
+
+    img {
+      margin-left: 100px;
+    }
+    h4 {
+      margin-top: 40px;
+      margin-left: 200px;
+    }
+
+    p {
+      margin-left: 200px;
+    }
+
+    .work2 {
+      img {
+        margin-left: 0;
+      }
+
+      h4 {
+        margin-left: 89px;
+      }
+  
+      p {
+        margin-left: 89px;
+      }
+    }
+  }
+}

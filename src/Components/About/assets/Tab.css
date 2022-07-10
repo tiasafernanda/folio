@@ -1,12 +1,12 @@
-.nav.nav-pills .nav-link.active {
+.nav.nav-pills .tab-year.active {
   background-color: transparent;
 }
 
-.nav.nav-pills .nav-link.active::before {
+.nav.nav-pills .tab-year.active::before {
   background-color: #ffff;
 }
 
-.nav.nav-pills .nav-link.active::after {
+.nav.nav-pills .tab-year.active::after {
   content: url(./point-line.png);
   vertical-align: middle;
   margin-left: 44px;
@@ -14,11 +14,11 @@
   z-index: 2;
 }
 
-.nav-link {
+.tab-year {
   color: #a7a7b3;
 }
 
-.nav-link::before {
+.tab-year::before {
   content: '';
   display: inline-block;
   background-color: #a7a7b3;
@@ -28,6 +28,6 @@
   vertical-align: middle;
 }
 
-.nav-link:hover {
+.tab-year:hover {
   cursor: pointer;
 }
