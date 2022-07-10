@@ -15,6 +15,7 @@
 
     .aboutHeader {
       padding-top: 70px;
+      margin-bottom: 94px;
       display: flex;
       align-items: flex-start;
 
@@ -32,7 +33,47 @@
         word-wrap: break-word;
         font-size: 4.5rem;
         width: 80%;
-        z-index: 100;
+        z-index: 1;
+        position: relative;
+      }
+    }
+  }
+
+  .tabContainers {
+    padding-top: 55px;
+    line-height: 5;
+  }
+  .tabContents {
+    position: relative;
+    z-index: 1;
+    right: 60px;
+
+    .contentText {
+      margin-top: 128px;
+      display: flex;
+
+      .tabTitle {
+        max-width: 100%;
+        width: 100px;
+      }
+      .tabDate {
+        width: 402px;
+        height: 252px;
+        border-radius: 50%;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .dates {
+          font-weight: 700;
+
+          .dateNum {
+            font-size: 8rem;
+            font-weight: 600;
+            line-height: 1;
+          }
+        }
       }
     }
   }

@@ -6,7 +6,7 @@ export default function Navigationbar() {
   return (
     <div>
       {['sm'].map((expand) => (
-        <Navbar key={expand} bg='light' expand={expand} >
+        <Navbar key={expand} expand={expand} >
           <Container fluid className={styles.navs}>
             <Navbar.Brand href='#'>
               <img src={logo} alt='' width='159' height='40' />
@@ -19,10 +19,10 @@ export default function Navigationbar() {
             >
               <Offcanvas.Body>
                 <Nav className={styles.navbarLink}>
-                  <Nav.Link href='#action1'>About</Nav.Link>
-                  <Nav.Link href='#action2'>Work</Nav.Link>
-                  <Nav.Link href='#action2'>Services</Nav.Link>
-                  <Nav.Link href='#action2'>Job</Nav.Link>
+                  <a href='#action1'>About</a>
+                  <a href='#action2'>Work</a>
+                  <a href='#action2'>Services</a>
+                  <a href='#action2'>Job</a>
                 </Nav>
                 <Button className={styles.button} size='lg'>
                   Contact Us
