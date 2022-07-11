@@ -1,0 +1,14 @@
+.list-group {
+  .list-group-item {
+    margin-bottom: 20px;
+    width: 400px;
+    height: 200px;
+    padding: 64px 129px 64px 64px;
+    border: none;
+    border-radius: 40px;
+
+    &.active {
+      background-color: #232340;
+    }
+  }
+}

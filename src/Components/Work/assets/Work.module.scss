@@ -17,7 +17,8 @@
       margin-bottom: 24px;
     }
     .numBout {
-      color: #5468E7;
+      margin-right: 28px;
+      color: #5468e7;
     }
     h1 {
       word-wrap: break-word;
@@ -56,10 +57,18 @@
       h4 {
         margin-left: 89px;
       }
-  
+
       p {
         margin-left: 89px;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .works {
+    .workPrev {
+      flex-direction: column;
     }
   }
 }
